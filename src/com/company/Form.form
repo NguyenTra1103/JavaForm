@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.Form">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1026" height="555"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="29fde" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="2" left="10" bottom="0" right="10"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="fdd29" class="javax.swing.JButton" binding="btnQuanLyXe">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16" style="1"/>
+              <text value="Quản lý xe vào "/>
+            </properties>
+          </component>
+          <component id="c62fa" class="javax.swing.JButton" binding="btnQuanLyXeRa">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16" style="1"/>
+              <text value="Quản lý xe ra "/>
+            </properties>
+          </component>
+          <component id="66e65" class="javax.swing.JLabel" binding="label">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=" dd/mm/yyyy  00:00:00"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5a4c8" layout-manager="GridLayoutManager" row-count="2" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="10" bottom="0" right="5"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none" title=""/>
+        <children>
+          <component id="281d1" class="javax.swing.JButton" binding="btnMaVao">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Tìm kiếm theo mã"/>
+            </properties>
+          </component>
+          <component id="921e3" class="javax.swing.JButton" binding="btnMaBienVao">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Tìm kiếm theo biển"/>
+            </properties>
+          </component>
+          <component id="ce940" class="javax.swing.JTextField" binding="txtMaVao">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="d9d8b" class="javax.swing.JTextField" binding="txtMaBienVao">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="48333" class="javax.swing.JButton" binding="btnMaRa">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Tìm kiếm theo mã"/>
+            </properties>
+          </component>
+          <component id="fe4e8" class="javax.swing.JButton" binding="btnMaBienRa">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Tìm kiếm theo biển"/>
+            </properties>
+          </component>
+          <component id="c1a7" class="javax.swing.JTextField" binding="txtMaRa">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <hspacer id="11486">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="92930">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="80784">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="8d4bc">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="32ed2">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="50234">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="b433" class="javax.swing.JTextField" binding="txtMaBienRa">
+            <constraints>
+              <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="adf05" layout-manager="GridLayoutManager" row-count="10" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2dc51" class="javax.swing.JButton" binding="btnMaThe">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Mã thẻ"/>
+            </properties>
+          </component>
+          <component id="65687" class="javax.swing.JTextField" binding="txtMaThe">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="6c832" class="javax.swing.JTextField" binding="txtKHRa">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="cc4b2" class="javax.swing.JButton" binding="btnKHRa">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Tên KH"/>
+            </properties>
+          </component>
+          <component id="9aa67" class="javax.swing.JButton" binding="btnMaBienSo">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Mã biển số"/>
+            </properties>
+          </component>
+          <component id="44fb" class="javax.swing.JTextField" binding="txtMaBienSo">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="17fed" class="javax.swing.JButton" binding="btnLoaiXe">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Loại xe"/>
+            </properties>
+          </component>
+          <component id="3a26d" class="javax.swing.JRadioButton" binding="radioBtnMay">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Máy"/>
+            </properties>
+          </component>
+          <component id="11a6b" class="javax.swing.JRadioButton" binding="RadioBtnO">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="OTo"/>
+            </properties>
+          </component>
+          <component id="155df" class="javax.swing.JTextField" binding="txtKHVao">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="d8834" class="javax.swing.JButton" binding="btnTenKHVao">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Tên KH"/>
+            </properties>
+          </component>
+          <component id="2bbeb" class="javax.swing.JButton" binding="btnCmnd">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="CMND"/>
+            </properties>
+          </component>
+          <component id="8825c" class="javax.swing.JTextField" binding="txtCmnd">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="61fa1" class="javax.swing.JButton" binding="btnTimeIn">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Thời Gian Vào"/>
+            </properties>
+          </component>
+          <component id="722a6" class="javax.swing.JTextField" binding="txtTimeIn">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="00:00:00"/>
+            </properties>
+          </component>
+          <component id="e6313" class="javax.swing.JButton" binding="btnMathera">
+            <constraints>
+              <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Mã Thẻ"/>
+            </properties>
+          </component>
+          <component id="92638" class="javax.swing.JTextField" binding="txtMaTheRa">
+            <constraints>
+              <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="2caa4" class="javax.swing.JButton" binding="btnTimeOut">
+            <constraints>
+              <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Thời gian ra"/>
+            </properties>
+          </component>
+          <component id="7d3f2" class="javax.swing.JTextField" binding="txtTimeOut">
+            <constraints>
+              <grid row="2" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="00:00:00"/>
+            </properties>
+          </component>
+          <component id="9a181" class="javax.swing.JButton" binding="btnTimeDo">
+            <constraints>
+              <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Thời gian đỗ"/>
+            </properties>
+          </component>
+          <component id="95d12" class="javax.swing.JTextField" binding="txtTimeDo">
+            <constraints>
+              <grid row="3" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="00:00:00"/>
+            </properties>
+          </component>
+          <component id="eb6e8" class="javax.swing.JButton" binding="btnChiPhi">
+            <constraints>
+              <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Chi Phí"/>
+            </properties>
+          </component>
+          <component id="9f0da" class="javax.swing.JTextField" binding="txtChiPhi">
+            <constraints>
+              <grid row="4" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="f69f1" class="javax.swing.JButton" binding="btnXeUse">
+            <constraints>
+              <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Số xe máy dùng"/>
+            </properties>
+          </component>
+          <component id="cc9fb" class="javax.swing.JTextField" binding="txtCount">
+            <constraints>
+              <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="a6256" class="javax.swing.JButton" binding="btnCarUse">
+            <constraints>
+              <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Số Oto dùng"/>
+            </properties>
+          </component>
+          <component id="67f4c" class="javax.swing.JTextField" binding="txtCarUse">
+            <constraints>
+              <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="7c445" class="javax.swing.JButton" binding="btnNew">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Nhập mới"/>
+            </properties>
+          </component>
+          <component id="a98ee" class="javax.swing.JButton" binding="btnSave">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Lưu"/>
+            </properties>
+          </component>
+          <component id="7799f" class="javax.swing.JButton" binding="btnMototemp">
+            <constraints>
+              <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Xe máy còn trống"/>
+            </properties>
+          </component>
+          <component id="8f06e" class="javax.swing.JTextField" binding="txtMotoTemp">
+            <constraints>
+              <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="384e9" class="javax.swing.JButton" binding="btnCarTemp">
+            <constraints>
+              <grid row="9" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Oto còn trống"/>
+            </properties>
+          </component>
+          <component id="cd48e" class="javax.swing.JTextField" binding="txtCarTemp">
+            <constraints>
+              <grid row="9" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="97c7a" class="javax.swing.JButton" binding="btnUpdate">
+            <constraints>
+              <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Cập nhật"/>
+            </properties>
+          </component>
+          <component id="7c28a" class="javax.swing.JButton" binding="btnThemDanhSach">
+            <constraints>
+              <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Thêm danh sách"/>
+            </properties>
+          </component>
+          <component id="288d3" class="javax.swing.JButton" binding="btnXoa">
+            <constraints>
+              <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Xoá"/>
+            </properties>
+          </component>
+          <component id="bc6a8" class="javax.swing.JButton" binding="btnXeMayRa">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Lượt Xe máy ra"/>
+            </properties>
+          </component>
+          <component id="974da" class="javax.swing.JTextField" binding="txtXeMayRa">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="95ec1" class="javax.swing.JButton" binding="btnOToRa">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="Lượt Oto ra"/>
+            </properties>
+          </component>
+          <component id="8f26d" class="javax.swing.JTextField" binding="txtOToRa">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="4aa1f" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="79743">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="e3558" class="javax.swing.JTable" binding="table1" default-binding="true">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
